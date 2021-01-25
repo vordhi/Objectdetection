@@ -13,8 +13,10 @@ If you have a Labview 2014 installed. Uncomment the codeblocks marked in the "te
 # For installing the Tensorflow objectdetection package
 firt clone the repository
 > git clone https://github.com/tensorflow/models.git
+
 Then Change directory as shown below:
 > cd models/research
 # Install TensorFlow Object Detection API.
 > cp object_detection/packages/tf1/setup.py .
+
 > python -m pip install .
